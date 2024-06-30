@@ -1,0 +1,821 @@
+2024-06-29 12:52:54.363 | INFO    | main.py:2152 [MainThread] - App Version: 1.3.10 - TIME: 2024-06-29 12:52:54
+2024-06-29 12:52:54.363 | INFO    | main.py:2153 [MainThread] - OS: Windows 10 10.0.22631 | CPU: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2024-06-29 12:52:54.371 | DEBUG   | main.py:2154 [MainThread] - Sys args: ['run.py']
+2024-06-29 12:52:54.371 | DEBUG   | main.py:2155 [MainThread] - Loading UI...
+2024-06-29 12:52:54.527 | INFO    | main.py:208 [MainThread] - Tray created successfully
+2024-06-29 12:52:54.964 | DEBUG   | main.py:281 [MainThread] - Available Theme to use: ['vista', 'sun-valley-light', 'sun-valley-dark', 'winnative', 'clam', 'alt', 'default', 'classic', 'xpnative']
+2024-06-29 12:52:54.964 | DEBUG   | style.py:32 [MainThread] - Setting theme: sun-valley-dark
+2024-06-29 12:52:54.997 | DEBUG   | style.py:66 [MainThread] - Setting custom dark theme style
+2024-06-29 12:52:57.051 | DEBUG   | main.py:713 [Thread-7 (check_ffmpeg)] - Checking ffmpeg...
+2024-06-29 12:52:57.067 | DEBUG   | main.py:715 [Thread-7 (check_ffmpeg)] - Checking ffmpeg done
+2024-06-29 12:52:59.373 | INFO    | main.py:299 [Thread-3 (cuda_check)] - GPU: No GPU detected | CUDA: CUDA is not available! Using CPU instead
+2024-06-29 12:53:02.139 | INFO    | about.py:123 [MainThread] - Checking for update on start
+2024-06-29 12:53:02.263 | INFO    | about.py:150 [Thread-16 (req_update_check)] - Checking for update...
+2024-06-29 12:53:03.175 | INFO    | about.py:167 [Thread-16 (req_update_check)] - No update available
+2024-06-29 12:58:03.525 | ERROR   | _logging.py:63 [MainThread] - --- Logging error in Loguru Handler #0 ---
+2024-06-29 12:58:06.463 | ERROR   | _logging.py:63 [MainThread] - Record was: {'elapsed': datetime.timedelta(seconds=309, microseconds=954840), 'exception': None, 'extra': {}, 'file': (name='_logging.py', path='C:\\ranveer\\speech-translate\\Speech-Translate\\speech_translate\\_logging.py'), 'function': 'write', 'level': (name='ERROR', no=40, icon='❌'), 'line': 63, 'message': '--- Logging error in Loguru Handler #0 ---', 'module': '_logging', 'name': 'speech_translate._logging', 'process': (id=7628, name='MainProcess'), 'thread': (id=17192, name='MainThread'), 'time': datetime(2024, 6, 29, 12, 58, 3, 525723, tzinfo=datetime.timezone(datetime.timedelta(seconds=19800), 'India Standard Time'))}
+2024-06-29 12:58:09.170 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 12:58:11.105 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 12:58:13.051 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 12:58:15.016 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 12:58:16.950 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 12:58:18.889 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 12:58:20.824 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 12:58:22.745 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 12:58:24.701 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 12:58:26.631 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 12:58:28.574 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 12:58:30.496 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 12:58:32.441 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 12:58:34.389 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 12:58:36.349 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 12:58:38.303 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 12:58:40.242 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 12:58:42.177 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 12:58:44.109 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 12:58:46.048 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 12:58:48.011 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 12:58:49.968 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 12:58:51.938 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 12:58:53.886 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 12:58:55.837 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 12:58:57.788 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 12:58:59.750 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 12:59:01.689 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 12:59:03.989 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 12:59:06.014 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 12:59:08.216 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 12:59:10.169 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 12:59:12.111 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 12:59:14.070 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 12:59:15.995 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 12:59:17.905 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 12:59:19.840 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 12:59:21.780 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 12:59:23.711 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 12:59:25.639 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 12:59:27.561 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 12:59:29.507 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 12:59:31.426 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 12:59:33.359 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 12:59:35.306 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 12:59:37.257 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 12:59:39.179 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 12:59:41.098 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 12:59:43.002 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 12:59:44.939 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 12:59:46.857 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 12:59:48.788 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 12:59:50.720 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 12:59:52.635 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 12:59:54.569 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 12:59:56.509 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 12:59:58.427 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:00:00.369 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:00:02.292 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:00:04.226 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:00:06.170 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:00:08.146 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:00:10.087 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:00:12.018 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:00:13.967 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:00:15.906 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:00:17.834 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:00:19.763 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:00:21.696 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:00:23.625 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:00:25.555 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:00:27.485 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:00:29.413 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:00:31.355 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:00:33.305 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:00:35.231 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:00:37.256 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:00:39.181 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:00:41.116 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:00:43.056 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:00:45.014 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:00:46.963 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:00:48.897 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:00:50.814 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:00:52.765 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:00:54.695 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:00:56.632 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:00:58.587 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:01:00.538 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:01:02.476 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:01:04.560 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:01:06.529 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:01:08.494 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:01:10.432 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:01:12.392 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:01:14.326 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:01:16.278 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:01:18.216 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:01:20.158 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:01:22.093 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:01:24.037 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:01:25.996 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:01:27.947 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:01:29.873 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:01:31.808 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:01:33.773 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:01:35.707 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:01:37.638 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:01:39.588 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:01:41.515 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:01:43.445 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:01:45.398 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:01:47.333 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:01:49.261 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:01:51.186 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:01:53.122 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:01:55.057 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:01:56.999 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:01:58.954 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:02:00.910 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:02:02.870 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:02:04.803 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:02:06.797 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:02:08.750 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:02:10.697 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:02:12.640 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:02:14.580 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:02:16.565 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:02:18.779 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:02:21.095 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:02:24.005 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:02:26.524 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:02:28.812 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:02:30.943 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:02:33.033 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:02:35.201 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:02:37.273 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:02:39.219 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:02:41.210 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:02:43.260 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:02:45.354 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:02:47.463 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:02:49.474 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:02:51.463 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:02:53.402 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:02:55.354 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:02:57.288 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:02:59.256 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:03:01.196 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:03:03.114 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:03:05.224 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:03:07.156 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:03:09.084 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:03:11.010 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:03:12.941 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:03:14.859 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:03:16.779 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:03:18.713 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:03:20.650 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:03:22.567 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:03:24.471 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:03:26.399 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:03:28.321 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:03:30.244 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:03:32.186 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:03:34.129 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:03:36.041 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:03:37.973 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:03:39.895 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:03:41.821 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:03:43.760 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:03:46.751 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:03:48.978 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:03:51.004 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:03:52.948 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:03:54.909 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:03:56.860 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:03:58.813 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:04:00.751 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:04:02.704 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:04:04.653 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:04:06.599 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:04:08.520 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:04:10.469 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:04:12.419 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:04:14.357 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:04:16.300 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:04:18.244 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:04:20.173 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:04:22.117 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:04:24.054 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:04:25.981 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:04:27.907 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:04:29.844 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:04:31.782 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:04:33.729 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:04:35.666 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:04:37.604 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:04:39.505 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:04:41.441 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:04:43.377 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:04:45.315 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:04:47.224 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:04:49.157 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:04:51.098 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:04:53.028 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:04:54.944 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:04:56.865 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:04:58.783 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:05:00.727 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:05:02.661 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:05:04.580 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:05:06.540 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:05:08.474 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:05:10.391 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:05:12.343 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:05:14.261 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:05:16.213 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:05:18.131 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:05:20.054 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:05:21.991 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:05:23.922 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:05:25.857 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:05:27.810 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:05:29.741 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:05:31.661 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:05:33.607 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:05:35.560 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:05:37.489 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:05:39.414 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:05:41.351 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:05:43.279 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:05:45.207 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:05:47.163 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:05:49.106 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:05:51.039 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:05:52.977 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:05:54.902 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:05:56.839 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:05:58.776 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:06:00.714 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:06:02.637 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:06:04.574 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:06:06.495 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:06:08.414 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:06:10.348 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:06:12.284 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:06:14.213 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:06:16.125 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:06:18.043 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:06:19.963 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:06:21.893 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:06:23.840 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:06:25.757 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:06:27.703 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:06:29.633 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:06:31.556 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:06:33.467 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:06:35.401 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:06:37.324 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:06:39.237 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:06:41.161 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:06:43.083 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:06:45.013 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:06:46.964 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:06:48.887 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:06:50.799 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:06:52.751 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:06:54.683 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:06:56.594 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:06:58.528 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:07:00.462 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:07:02.393 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:07:04.329 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:07:06.252 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:07:08.170 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:07:10.089 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:07:12.013 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:07:13.951 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:07:15.867 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:07:17.817 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:07:19.744 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:07:21.670 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:07:23.615 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:07:25.565 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:07:27.514 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:07:29.422 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:07:31.328 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:07:33.262 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:07:35.223 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:07:37.152 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:07:39.100 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:07:41.018 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:07:42.977 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:07:45.039 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:07:46.966 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:07:48.913 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:07:50.856 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:07:53.073 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:07:55.138 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:07:57.078 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:07:59.017 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:08:00.949 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:08:02.886 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:08:04.802 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:08:06.769 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:08:08.708 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:08:10.626 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:08:12.563 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:08:14.464 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:08:16.413 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:08:18.347 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:08:20.276 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:08:22.204 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:08:24.145 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:08:26.201 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:08:28.171 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:08:30.123 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:08:32.069 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:08:34.014 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:08:35.969 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:08:37.890 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:08:39.853 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:08:41.916 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:08:43.853 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:08:45.787 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:08:47.798 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:08:49.873 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:08:51.842 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:08:53.816 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:08:55.752 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:08:57.675 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:08:59.634 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:09:01.581 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:09:03.507 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:09:05.438 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:09:07.714 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:09:09.841 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:09:11.913 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:09:13.865 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:09:15.803 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:09:17.732 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:09:19.666 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:09:21.651 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:09:23.646 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:09:25.617 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:09:27.658 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:09:29.794 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:09:31.728 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:09:33.656 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:09:35.602 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:09:37.543 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:09:39.495 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:09:41.427 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:09:43.379 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:09:45.406 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:09:47.349 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:09:49.311 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:09:51.242 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:09:53.228 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:09:55.175 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:09:57.161 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:09:59.258 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:10:01.207 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:10:03.153 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:10:05.398 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:10:07.810 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:10:09.812 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:10:11.821 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:10:13.752 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:10:15.711 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:10:17.659 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:10:19.631 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:10:21.561 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:10:23.493 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:10:25.444 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:10:27.389 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:10:29.330 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:10:31.279 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:10:33.209 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:10:35.213 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:10:37.291 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:10:39.569 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:10:41.752 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:10:43.711 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:10:45.662 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:10:47.606 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:10:49.536 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:10:51.495 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:10:53.460 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:10:55.413 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:10:57.342 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:10:59.284 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:11:01.240 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:11:03.193 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:11:05.147 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:11:07.188 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:11:09.123 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:11:11.077 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:11:13.040 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:11:15.006 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:11:16.970 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:11:18.904 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:11:20.817 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:11:22.742 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:11:24.695 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:11:26.698 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:11:28.813 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:11:30.933 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:11:33.087 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:11:35.413 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:11:37.929 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:11:40.471 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:11:42.504 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:11:44.468 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:11:46.423 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:11:48.511 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:11:50.660 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:11:52.849 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:11:55.007 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:11:57.166 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:11:59.282 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:12:01.441 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:12:03.599 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:12:05.790 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:12:07.923 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:12:09.945 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:12:11.911 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:12:14.083 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:12:16.261 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:12:18.438 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:12:20.585 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:12:22.803 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:12:25.410 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:12:27.852 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:12:30.103 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:12:32.332 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:12:34.724 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:12:37.117 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:12:39.421 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:12:41.784 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:12:43.765 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:12:45.767 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:12:47.731 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:12:49.673 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:12:51.627 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:12:53.574 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:12:55.500 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:12:57.419 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:12:59.369 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:13:01.313 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:13:03.243 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:13:05.298 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:13:07.384 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:13:09.411 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:13:11.413 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:13:13.326 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:13:15.281 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:13:17.220 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:13:19.139 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:13:21.076 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:13:23.000 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:13:24.955 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:13:26.883 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:13:28.838 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:13:30.767 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:13:32.687 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:13:34.635 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:13:36.569 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:13:38.494 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:13:40.434 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:13:42.354 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:13:44.307 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:13:46.258 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:13:48.238 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:13:50.198 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:14:21.748 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:14:24.435 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:14:27.016 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:14:29.529 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:14:31.833 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:14:33.796 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:14:35.753 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:14:37.704 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:14:39.633 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:14:41.578 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:14:43.519 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:14:45.533 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:14:47.580 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:14:49.517 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:14:51.472 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:14:53.417 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:14:55.370 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:14:57.312 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:14:59.274 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:15:01.219 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:15:03.148 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:15:06.355 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:15:09.604 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:15:12.791 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:15:16.016 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:15:19.327 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:15:22.532 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:15:25.753 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:15:28.922 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:15:31.989 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:15:35.270 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:15:38.560 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:15:42.531 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:15:46.049 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:15:49.516 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:15:52.760 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:15:56.137 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:15:59.748 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:16:03.373 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:16:06.803 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:16:10.339 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:16:13.791 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:16:17.715 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:16:20.978 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:16:24.669 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:16:28.042 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:16:31.593 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:16:35.302 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:16:38.591 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:16:42.051 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:16:45.722 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:16:49.366 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:16:52.845 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:16:56.285 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:16:59.873 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:17:03.219 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:17:06.762 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:17:10.152 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:17:13.665 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:17:17.131 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:17:20.739 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:17:24.089 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:17:27.442 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:17:30.933 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:17:34.171 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:17:37.629 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:17:41.099 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:17:44.522 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:17:48.177 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:17:51.704 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:17:55.228 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:17:58.711 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:18:02.375 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:18:05.835 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:18:09.155 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:18:12.490 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:18:15.807 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:18:19.169 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:18:22.551 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:18:26.238 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:18:29.820 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:18:33.842 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:18:36.805 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:18:40.728 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:18:44.462 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:18:48.082 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:18:51.459 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:18:54.968 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:18:58.798 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:19:02.352 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:19:05.941 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:19:09.624 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:19:13.371 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:19:17.222 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:19:21.155 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:19:24.555 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:19:27.774 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:19:31.109 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:19:34.487 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:19:37.715 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:19:41.028 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:19:44.531 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:19:47.921 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:19:51.183 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:19:54.651 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:19:57.968 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:20:01.410 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:20:04.829 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:20:08.478 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:20:11.599 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:20:14.686 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:20:18.671 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:20:22.445 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:20:26.195 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:20:29.650 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:20:33.192 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:20:36.769 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:20:40.331 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:20:44.087 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:20:47.631 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:20:51.027 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:20:54.247 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:20:57.486 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:21:01.041 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:21:04.802 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:21:08.192 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:21:11.995 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:21:15.480 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:21:18.821 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:21:22.918 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:21:26.537 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:21:29.868 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:21:33.211 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:21:36.504 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:21:39.926 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:21:43.298 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:21:46.627 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:21:50.065 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:21:53.338 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:21:56.565 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:21:59.900 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:22:03.183 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:22:06.522 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:22:09.647 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:22:13.081 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:22:16.515 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:22:19.743 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:22:23.071 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:22:26.195 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:22:29.444 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:22:32.758 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:22:36.369 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:22:39.757 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:22:43.327 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:22:46.643 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:22:50.421 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:22:54.011 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:22:57.692 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:23:01.138 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:23:04.676 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:23:08.440 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:23:12.101 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:23:15.469 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:23:19.019 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:23:22.646 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:23:25.960 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:23:29.598 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:23:33.211 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:23:36.713 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:23:40.275 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:23:43.836 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:23:47.281 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:23:50.829 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:23:54.327 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:23:57.692 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:24:01.090 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:24:04.721 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:24:08.447 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:24:12.041 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:24:15.491 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:24:19.151 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:24:22.911 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:24:26.526 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:24:29.376 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:24:32.797 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:24:36.426 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:24:40.000 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:24:43.663 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:24:47.270 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:24:50.782 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:24:54.468 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:24:58.031 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:25:01.359 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:25:04.776 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:25:08.111 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:25:10.749 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:25:14.032 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:25:17.209 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:25:20.636 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:25:24.059 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:25:27.399 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:25:30.710 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:25:34.137 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:25:37.586 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:25:41.064 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:25:44.532 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:25:47.940 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:25:51.330 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:25:54.836 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:25:58.239 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:26:01.703 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:26:05.165 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:26:08.831 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:26:12.489 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:26:16.222 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:26:21.170 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:26:25.276 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:26:28.884 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:26:32.410 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:26:35.941 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:26:39.380 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:26:42.728 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:26:46.016 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:26:49.601 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:26:53.130 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:26:56.639 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:27:00.021 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:27:03.521 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:27:07.075 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:27:10.658 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:27:14.049 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:27:17.360 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:27:20.637 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:27:24.130 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:27:27.408 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:27:30.651 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:27:34.007 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:27:37.499 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:27:40.813 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:27:44.262 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:27:47.809 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:27:51.323 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:27:54.920 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:27:58.463 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:28:01.955 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:28:05.509 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:28:08.973 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:28:12.559 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:28:15.941 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:28:19.467 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:28:22.923 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:28:26.442 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:28:29.848 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:28:33.291 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:28:36.779 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:28:40.059 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:28:43.572 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:28:47.054 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:28:50.504 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:28:53.998 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:28:57.401 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:29:00.740 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:29:04.198 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:29:07.745 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:29:11.200 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:29:14.681 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:29:18.234 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:29:21.638 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:29:25.014 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:29:28.593 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:29:32.152 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:29:35.674 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:29:39.102 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:29:42.551 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:29:46.089 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:29:49.459 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:29:52.922 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:29:56.252 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:29:59.606 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:30:04.074 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:30:07.932 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:30:11.261 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:30:14.520 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:30:17.861 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:30:21.322 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:30:24.440 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:30:27.721 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:30:31.081 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:30:34.422 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:30:37.659 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:30:41.316 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:30:45.076 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:30:48.687 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:30:51.982 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:30:55.305 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:30:58.512 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:31:02.229 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:31:05.440 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:31:08.512 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:31:11.598 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:31:14.997 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:31:18.467 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:31:21.517 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:31:24.846 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:31:28.040 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:31:31.155 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:31:34.408 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:31:37.626 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:31:40.867 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:31:44.190 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:31:47.443 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:31:50.980 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:31:54.335 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:31:57.663 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+2024-06-29 13:32:00.891 | ERROR   | _logging.py:63 [MainThread] -     self.write_plain_text(text, cursor, start)
+2024-06-29 13:32:04.160 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 211, in write_plain_text
+2024-06-29 13:32:07.548 | ERROR   | _logging.py:63 [MainThread] -     self.wrapped.flush()
+2024-06-29 13:32:10.987 | ERROR   | _logging.py:63 [MainThread] - OSError: [WinError 233] No process is on the other end of the pipe
+2024-06-29 13:32:14.484 | ERROR   | _logging.py:63 [MainThread] - During handling of the above exception, another exception occurred:
+2024-06-29 13:32:17.866 | ERROR   | _logging.py:63 [MainThread] - Traceback (most recent call last):
+2024-06-29 13:32:21.241 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_handler.py", line 177, in emit
+2024-06-29 13:32:24.638 | ERROR   | _logging.py:63 [MainThread] -     self._sink.write(str_record)
+2024-06-29 13:32:27.805 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\loguru\_simple_sinks.py", line 16, in write
+2024-06-29 13:32:31.151 | ERROR   | _logging.py:63 [MainThread] -     self._stream.write(message)
+2024-06-29 13:32:34.262 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+2024-06-29 13:32:37.690 | ERROR   | _logging.py:63 [MainThread] -     self.__convertor.write(text)
+2024-06-29 13:32:41.145 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+2024-06-29 13:32:45.310 | ERROR   | _logging.py:63 [MainThread] -     self.write_and_convert(text)
+2024-06-29 13:32:49.337 | ERROR   | _logging.py:63 [MainThread] -   File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert

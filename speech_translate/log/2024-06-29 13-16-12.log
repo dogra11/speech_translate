@@ -1,0 +1,428 @@
+2024-06-29 13:16:13.551 | INFO    | main.py:2152 [MainThread] - App Version: 1.3.10 - TIME: 2024-06-29 13:16:13
+2024-06-29 13:16:13.551 | INFO    | main.py:2153 [MainThread] - OS: Windows 10 10.0.22631 | CPU: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2024-06-29 13:16:13.551 | DEBUG   | main.py:2154 [MainThread] - Sys args: ['run.py']
+2024-06-29 13:16:13.551 | DEBUG   | main.py:2155 [MainThread] - Loading UI...
+2024-06-29 13:16:13.783 | INFO    | main.py:208 [MainThread] - Tray created successfully
+2024-06-29 13:16:14.375 | DEBUG   | main.py:281 [MainThread] - Available Theme to use: ['vista', 'sun-valley-light', 'sun-valley-dark', 'winnative', 'clam', 'alt', 'default', 'classic', 'xpnative']
+2024-06-29 13:16:14.375 | DEBUG   | style.py:32 [MainThread] - Setting theme: sun-valley-dark
+2024-06-29 13:16:14.425 | DEBUG   | style.py:66 [MainThread] - Setting custom dark theme style
+2024-06-29 13:16:17.355 | DEBUG   | main.py:713 [Thread-7 (check_ffmpeg)] - Checking ffmpeg...
+2024-06-29 13:16:17.387 | DEBUG   | main.py:715 [Thread-7 (check_ffmpeg)] - Checking ffmpeg done
+2024-06-29 13:16:19.699 | INFO    | main.py:299 [Thread-3 (cuda_check)] - GPU: No GPU detected | CUDA: CUDA is not available! Using CPU instead
+2024-06-29 13:16:22.161 | WARNING | general.py:533 [Thread-10 (delete_log_on_start)] - Failed to delete log file: 2024-06-29 12-52-53.log
+2024-06-29 13:16:22.161 | WARNING | general.py:534 [Thread-10 (delete_log_on_start)] - Reason [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\ranveer\\speech-translate\\Speech-Translate\\speech_translate\\log\\2024-06-29 12-52-53.log'
+2024-06-29 13:16:23.278 | INFO    | about.py:123 [MainThread] - Checking for update on start
+2024-06-29 13:16:23.385 | INFO    | about.py:150 [Thread-18 (req_update_check)] - Checking for update...
+2024-06-29 13:16:32.341 | INFO    | about.py:167 [Thread-18 (req_update_check)] - No update available
+2024-06-29 13:18:08.241 | INFO    | helper.py:37 [MainThread] - Checking model name
+2024-06-29 13:18:08.243 | DEBUG   | helper.py:38 [MainThread] - modelKey: ⚡ Tiny [1GB VRAM] (Fastest), src_english: True
+2024-06-29 13:18:08.243 | DEBUG   | helper.py:43 [MainThread] - modelName: tiny.en
+2024-06-29 13:18:08.243 | DEBUG   | main.py:1539 [MainThread] - Running disabler...
+2024-06-29 13:18:08.958 | DEBUG   | download.py:110 [MainThread] - Connecting to huggingface server to verify model
+2024-06-29 13:18:17.759 | WARNING | download.py:121 [MainThread] - Failed to connect to huggingface server, verifying using local cache instead
+2024-06-29 13:18:17.767 | DEBUG   | main.py:1617 [MainThread] - Running enabler...
+2024-06-29 13:18:18.922 | DEBUG   | device.py:84 [Thread-19 (record_session)] - Device: (1) Microphone (Realtek(R) Audio)Sample Rate 16000 | channels 1 | chunk size 1024Actual device detail: {'index': 1, 'structVersion': 2, 'name': 'Microphone (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0, 'isLoopbackDevice': False}
+2024-06-29 13:18:21.021 | INFO    | record.py:160 [Thread-19 (record_session)] - Checking for internet connection
+2024-06-29 13:18:30.006 | ERROR   | record.py:163 [Thread-19 (record_session)] - HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Traceback (most recent call last):
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               │    └ <function HTTPConnection.getresponse at 0x0000025AE00F2020>
+               └ <urllib3.connection.HTTPSConnection object at 0x0000025A90522850>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+    │        └ <function HTTPResponse.begin at 0x0000025AE0059440>
+    └ <http.client.HTTPResponse object at 0x0000025A91F87AC0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              │    └ <function HTTPResponse._read_status at 0x0000025AE00593A0>
+                              └ <http.client.HTTPResponse object at 0x0000025A91F87AC0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\http\client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               │    │           └ 65536
+               │    └ None
+               └ <http.client.HTTPResponse object at 0x0000025A91F87AC0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           │    │               └ <memory at 0x0000025A91FA8C40>
+           │    └ None
+           └ <socket.SocketIO object at 0x0000025A91F87B20>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           │    │    │       └ <memory at 0x0000025A91FA8C40>
+           │    │    └ 8192
+           │    └ <function SSLSocket.read at 0x0000025ADFC0EDE0>
+           └ <ssl.SSLSocket [closed] fd=-1, family=2, type=1, proto=0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           │    │            │    └ <memory at 0x0000025A91FA8C40>
+           │    │            └ 8192
+           │    └ None
+           └ <ssl.SSLSocket [closed] fd=-1, family=2, type=1, proto=0>
+
+TimeoutError: The read operation timed out
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x0000025AE01122A0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A906F9610>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              │       └ <function Retry.increment at 0x0000025AE0063D80>
+              └ Retry(total=0, connect=None, read=False, redirect=None, status=None)
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          │            │       │      └ <traceback object at 0x0000025A91ACED80>
+          │            │       └ ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)")
+          │            └ ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)")
+          └ <function reraise at 0x0000025AE00622A0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+          └ None
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               │    └ <function HTTPConnectionPool._make_request at 0x0000025AE01120C0>
+               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A906F9610>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    │    │                         │                  └ 5
+    │    │                         └ '/'
+    │    └ <function HTTPConnectionPool._raise_timeout at 0x0000025AE0112020>
+    └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A906F9610>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+          └ <class 'urllib3.exceptions.ReadTimeoutError'>
+
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\ranveer\speech-translate\Speech-Translate\speech_translate\utils\audio\record.py", line 161, in record_session
+    requests.get("https://www.google.com/", timeout=5)
+    │        └ <function get at 0x0000025AE02A8FE0>
+    └ <module 'requests' from 'C:\\Users\\admin\\anaconda3\\envs\\translate\\Lib\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           │              │           │         └ {'timeout': 5}
+           │              │           └ None
+           │              └ 'https://www.google.com/'
+           └ <function request at 0x0000025AE02A8C20>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'params': None, 'timeout': 5}
+           │       │              │           └ 'https://www.google.com/'
+           │       │              └ 'get'
+           │       └ <function Session.request at 0x0000025AE02D7240>
+           └ <requests.sessions.Session object at 0x0000025AFFB11690>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': 5, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x0000025AE02D7740>
+           └ <requests.sessions.Session object at 0x0000025AFFB11690>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': 5, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x0000025AE02D6AC0>
+        └ <requests.adapters.HTTPAdapter object at 0x0000025A906FB010>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+          │                      └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.ReadTimeout'>
+
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+2024-06-29 13:18:34.005 | DEBUG   | load.py:366 [Thread-19 (record_session)] - Mode load args get: {'device': 'cpu', 'success': True}
+2024-06-29 13:18:34.007 | DEBUG   | load.py:492 [Thread-19 (record_session)] - Loading model for transcribe using faster-whisper
+2024-06-29 13:18:37.940 | ERROR   | _logging.py:63 [Thread-19 (record_session)] - An error occured while synchronizing the model Systran/faster-whisper-tiny.en from the Hugging Face Hub:
+2024-06-29 13:18:37.947 | ERROR   | _logging.py:63 [Thread-19 (record_session)] - (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/Systran/faster-whisper-tiny.en/revision/main (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: ec8e0db4-2cb3-4015-a18a-42d418796c60)')
+2024-06-29 13:18:37.948 | ERROR   | _logging.py:63 [Thread-19 (record_session)] - Trying to load the model directly from the local cache, if it exists.
+2024-06-29 13:18:38.408 | DEBUG   | load.py:542 [Thread-19 (record_session)] - Model loaded | Is Faster Whisper: True | Load Status:
+2024-06-29 13:18:38.408 | DEBUG   | load.py:543 [Thread-19 (record_session)] - TC: Set
+2024-06-29 13:18:38.408 | DEBUG   | load.py:544 [Thread-19 (record_session)] - TL: Not Set
+2024-06-29 13:18:38.408 | DEBUG   | load.py:545 [Thread-19 (record_session)] - func_tc: Set
+2024-06-29 13:18:38.416 | DEBUG   | load.py:546 [Thread-19 (record_session)] - func_tl: Not Set
+2024-06-29 13:18:38.416 | DEBUG   | load.py:442 [Thread-19 (record_session)] - Pass kwarg:
+2024-06-29 13:18:38.424 | DEBUG   | load.py:443 [Thread-19 (record_session)] - {'temperature': (0.0, 0.2, 0.4, 0.6, 0.8, 1.0), 'best_of': 3, 'beam_size': 3, 'patience': 1.0, 'compression_ratio_threshold': 2.4, 'logprob_threshold': -1.0, 'no_speech_threshold': 0.72, 'suppress_tokens': None, 'suppress_blank': True, 'initial_prompt': None, 'prefix': None, 'condition_on_previous_text': True, 'max_initial_timestamp': 1.0, 'fp16': True}
+2024-06-29 13:18:38.432 | DEBUG   | load.py:366 [Thread-19 (record_session)] - Mode transcribe args get: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'threads': 0, 'success': True}
+2024-06-29 13:18:38.441 | DEBUG   | language.py:269 [Thread-19 (record_session)] - GETTING WHISPER LANGUAGE FROM SIMILAR LANGUAGE NAME
+2024-06-29 13:18:38.441 | DEBUG   | language.py:274 [Thread-19 (record_session)] - Found key english while searching for english
+2024-06-29 13:18:38.441 | DEBUG   | language.py:275 [Thread-19 (record_session)] - FULL KEY GET ['english']
+2024-06-29 13:18:38.571 | INFO    | record.py:417 [Thread-19 (record_session)] - --------------------------------------------------
+2024-06-29 13:18:38.571 | INFO    | record.py:418 [Thread-19 (record_session)] - Taskname: Transcribe & Translate
+2024-06-29 13:18:38.571 | INFO    | record.py:419 [Thread-19 (record_session)] - TC: True
+2024-06-29 13:18:38.571 | INFO    | record.py:420 [Thread-19 (record_session)] - TL: True
+2024-06-29 13:18:38.580 | INFO    | record.py:421 [Thread-19 (record_session)] - Model: tiny.en
+2024-06-29 13:18:38.580 | INFO    | record.py:422 [Thread-19 (record_session)] - Engine: Google Translate
+2024-06-29 13:18:38.580 | INFO    | record.py:423 [Thread-19 (record_session)] - CUDA: cpu
+2024-06-29 13:18:38.586 | INFO    | record.py:424 [Thread-19 (record_session)] - Auto mode: False
+2024-06-29 13:18:38.588 | INFO    | record.py:425 [Thread-19 (record_session)] - Whisper Lang/Key: english/en
+2024-06-29 13:18:38.592 | INFO    | record.py:426 [Thread-19 (record_session)] - Source Languange: english
+2024-06-29 13:18:38.592 | INFO    | record.py:428 [Thread-19 (record_session)] - Target Language: marathi
+2024-06-29 13:18:38.597 | INFO    | record.py:429 [Thread-19 (record_session)] - Model Args: {'device': 'cpu', 'download_root': 'C:\\Users\\admin\\.cache\\whisper'}
+2024-06-29 13:18:38.597 | INFO    | record.py:430 [Thread-19 (record_session)] - Process Args: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'verbose': None, 'language': 'en', 'input_sr': 16000}
+2024-06-29 13:18:39.052 | DEBUG   | record.py:661 [Thread-19 (record_session)] - Recording session started
+2024-06-29 13:18:39.128 | DEBUG   | record.py:977 [Dummy-21] - Checking if webrtcvad is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:18:39.130 | DEBUG   | record.py:979 [Dummy-21] - Checking if silero is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:19:21.238 | DEBUG   | record.py:895 [Thread-19 (record_session)] - Stopping Record Session
+2024-06-29 13:19:21.248 | INFO    | record.py:899 [Thread-19 (record_session)] - --------------------------------------------------
+2024-06-29 13:19:21.252 | INFO    | record.py:900 [Thread-19 (record_session)] - Stopping stream
+2024-06-29 13:19:21.378 | INFO    | record.py:909 [Thread-19 (record_session)] - Terminating pyaudio
+2024-06-29 13:19:21.389 | INFO    | record.py:916 [Thread-19 (record_session)] - Emptying queue
+2024-06-29 13:19:21.427 | INFO    | record.py:923 [Thread-19 (record_session)] - Cleaning up audioFiles (if any)
+2024-06-29 13:19:21.427 | INFO    | record.py:929 [Thread-19 (record_session)] - Done!
+2024-06-29 13:19:21.510 | INFO    | record.py:941 [Thread-19 (record_session)] - Modal closed
+2024-06-29 13:19:21.510 | INFO    | record.py:942 [Thread-19 (record_session)] - --------------------------------------------------
+2024-06-29 13:19:21.510 | INFO    | record.py:958 [Thread-19 (record_session)] - Record session ended
+2024-06-29 13:19:53.552 | INFO    | helper.py:37 [MainThread] - Checking model name
+2024-06-29 13:19:53.552 | DEBUG   | helper.py:38 [MainThread] - modelKey: ⚡ Tiny [1GB VRAM] (Fastest), src_english: True
+2024-06-29 13:19:53.552 | DEBUG   | helper.py:43 [MainThread] - modelName: tiny.en
+2024-06-29 13:19:53.552 | DEBUG   | main.py:1539 [MainThread] - Running disabler...
+2024-06-29 13:19:53.561 | DEBUG   | download.py:110 [MainThread] - Connecting to huggingface server to verify model
+2024-06-29 13:19:57.837 | WARNING | download.py:121 [MainThread] - Failed to connect to huggingface server, verifying using local cache instead
+2024-06-29 13:19:57.837 | DEBUG   | main.py:1617 [MainThread] - Running enabler...
+2024-06-29 13:19:57.944 | DEBUG   | device.py:84 [Thread-27 (record_session)] - Device: (1) Microphone (Realtek(R) Audio)Sample Rate 16000 | channels 1 | chunk size 1024Actual device detail: {'index': 1, 'structVersion': 2, 'name': 'Microphone (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0, 'isLoopbackDevice': False}
+2024-06-29 13:20:03.139 | INFO    | record.py:160 [Thread-27 (record_session)] - Checking for internet connection
+2024-06-29 13:20:09.372 | DEBUG   | load.py:366 [Thread-27 (record_session)] - Mode load args get: {'device': 'cpu', 'success': True}
+2024-06-29 13:20:09.372 | DEBUG   | load.py:492 [Thread-27 (record_session)] - Loading model for transcribe using faster-whisper
+2024-06-29 13:20:14.677 | ERROR   | _logging.py:63 [Thread-27 (record_session)] - An error occured while synchronizing the model Systran/faster-whisper-tiny.en from the Hugging Face Hub:
+2024-06-29 13:20:14.678 | ERROR   | _logging.py:63 [Thread-27 (record_session)] - (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/Systran/faster-whisper-tiny.en/revision/main (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: 2851f9df-56cc-41a2-bd64-714c3eb2b775)')
+2024-06-29 13:20:14.680 | ERROR   | _logging.py:63 [Thread-27 (record_session)] - Trying to load the model directly from the local cache, if it exists.
+2024-06-29 13:20:15.036 | DEBUG   | load.py:542 [Thread-27 (record_session)] - Model loaded | Is Faster Whisper: True | Load Status:
+2024-06-29 13:20:15.039 | DEBUG   | load.py:543 [Thread-27 (record_session)] - TC: Set
+2024-06-29 13:20:15.039 | DEBUG   | load.py:544 [Thread-27 (record_session)] - TL: Not Set
+2024-06-29 13:20:15.048 | DEBUG   | load.py:545 [Thread-27 (record_session)] - func_tc: Set
+2024-06-29 13:20:15.053 | DEBUG   | load.py:546 [Thread-27 (record_session)] - func_tl: Not Set
+2024-06-29 13:20:15.056 | DEBUG   | load.py:442 [Thread-27 (record_session)] - Pass kwarg:
+2024-06-29 13:20:15.056 | DEBUG   | load.py:443 [Thread-27 (record_session)] - {'temperature': (0.0, 0.2, 0.4, 0.6, 0.8, 1.0), 'best_of': 3, 'beam_size': 3, 'patience': 1.0, 'compression_ratio_threshold': 2.4, 'logprob_threshold': -1.0, 'no_speech_threshold': 0.72, 'suppress_tokens': None, 'suppress_blank': True, 'initial_prompt': None, 'prefix': None, 'condition_on_previous_text': True, 'max_initial_timestamp': 1.0, 'fp16': True}
+2024-06-29 13:20:15.072 | DEBUG   | load.py:366 [Thread-27 (record_session)] - Mode transcribe args get: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'threads': 0, 'success': True}
+2024-06-29 13:20:15.080 | DEBUG   | language.py:269 [Thread-27 (record_session)] - GETTING WHISPER LANGUAGE FROM SIMILAR LANGUAGE NAME
+2024-06-29 13:20:15.080 | DEBUG   | language.py:274 [Thread-27 (record_session)] - Found key english while searching for english
+2024-06-29 13:20:15.088 | DEBUG   | language.py:275 [Thread-27 (record_session)] - FULL KEY GET ['english']
+2024-06-29 13:20:15.202 | INFO    | record.py:417 [Thread-27 (record_session)] - --------------------------------------------------
+2024-06-29 13:20:15.210 | INFO    | record.py:418 [Thread-27 (record_session)] - Taskname: Transcribe & Translate
+2024-06-29 13:20:15.210 | INFO    | record.py:419 [Thread-27 (record_session)] - TC: True
+2024-06-29 13:20:15.218 | INFO    | record.py:420 [Thread-27 (record_session)] - TL: True
+2024-06-29 13:20:15.221 | INFO    | record.py:421 [Thread-27 (record_session)] - Model: tiny.en
+2024-06-29 13:20:15.223 | INFO    | record.py:422 [Thread-27 (record_session)] - Engine: Google Translate
+2024-06-29 13:20:15.228 | INFO    | record.py:423 [Thread-27 (record_session)] - CUDA: cpu
+2024-06-29 13:20:15.230 | INFO    | record.py:424 [Thread-27 (record_session)] - Auto mode: False
+2024-06-29 13:20:15.233 | INFO    | record.py:425 [Thread-27 (record_session)] - Whisper Lang/Key: english/en
+2024-06-29 13:20:15.236 | INFO    | record.py:426 [Thread-27 (record_session)] - Source Languange: english
+2024-06-29 13:20:15.240 | INFO    | record.py:428 [Thread-27 (record_session)] - Target Language: marathi
+2024-06-29 13:20:15.243 | INFO    | record.py:429 [Thread-27 (record_session)] - Model Args: {'device': 'cpu', 'download_root': 'C:\\Users\\admin\\.cache\\whisper'}
+2024-06-29 13:20:15.247 | INFO    | record.py:430 [Thread-27 (record_session)] - Process Args: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'verbose': None, 'language': 'en', 'input_sr': 16000}
+2024-06-29 13:20:15.592 | DEBUG   | record.py:661 [Thread-27 (record_session)] - Recording session started
+2024-06-29 13:20:15.666 | DEBUG   | record.py:977 [Dummy-29] - Checking if webrtcvad is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:20:15.669 | DEBUG   | record.py:979 [Dummy-29] - Checking if silero is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:20:33.244 | DEBUG   | record.py:895 [Thread-27 (record_session)] - Stopping Record Session
+2024-06-29 13:20:33.255 | INFO    | record.py:899 [Thread-27 (record_session)] - --------------------------------------------------
+2024-06-29 13:20:33.256 | INFO    | record.py:900 [Thread-27 (record_session)] - Stopping stream
+2024-06-29 13:20:33.333 | INFO    | record.py:909 [Thread-27 (record_session)] - Terminating pyaudio
+2024-06-29 13:20:33.338 | INFO    | record.py:916 [Thread-27 (record_session)] - Emptying queue
+2024-06-29 13:20:33.338 | INFO    | record.py:923 [Thread-27 (record_session)] - Cleaning up audioFiles (if any)
+2024-06-29 13:20:33.345 | INFO    | record.py:929 [Thread-27 (record_session)] - Done!
+2024-06-29 13:20:33.689 | INFO    | record.py:941 [Thread-27 (record_session)] - Modal closed
+2024-06-29 13:20:33.698 | INFO    | record.py:942 [Thread-27 (record_session)] - --------------------------------------------------
+2024-06-29 13:20:33.698 | INFO    | record.py:958 [Thread-27 (record_session)] - Record session ended
+2024-06-29 13:25:57.605 | INFO    | helper.py:37 [MainThread] - Checking model name
+2024-06-29 13:25:57.605 | DEBUG   | helper.py:38 [MainThread] - modelKey: ⚡ Tiny [1GB VRAM] (Fastest), src_english: True
+2024-06-29 13:25:57.613 | DEBUG   | helper.py:43 [MainThread] - modelName: tiny.en
+2024-06-29 13:25:57.613 | DEBUG   | main.py:1539 [MainThread] - Running disabler...
+2024-06-29 13:25:57.621 | DEBUG   | download.py:110 [MainThread] - Connecting to huggingface server to verify model
+2024-06-29 13:25:59.021 | WARNING | download.py:121 [MainThread] - Failed to connect to huggingface server, verifying using local cache instead
+2024-06-29 13:25:59.030 | DEBUG   | main.py:1617 [MainThread] - Running enabler...
+2024-06-29 13:25:59.145 | DEBUG   | device.py:84 [Thread-36 (record_session)] - Device: (1) Microphone (Realtek(R) Audio)Sample Rate 16000 | channels 1 | chunk size 1024Actual device detail: {'index': 1, 'structVersion': 2, 'name': 'Microphone (Realtek(R) Audio)', 'hostApi': 0, 'maxInputChannels': 2, 'maxOutputChannels': 0, 'defaultLowInputLatency': 0.09, 'defaultLowOutputLatency': 0.09, 'defaultHighInputLatency': 0.18, 'defaultHighOutputLatency': 0.18, 'defaultSampleRate': 44100.0, 'isLoopbackDevice': False}
+2024-06-29 13:26:01.102 | INFO    | record.py:160 [Thread-36 (record_session)] - Checking for internet connection
+2024-06-29 13:26:09.170 | ERROR   | record.py:163 [Thread-36 (record_session)] - HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+Traceback (most recent call last):
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+    │    │              └ <urllib3.connection.HTTPSConnection object at 0x0000025A93F3A6D0>
+    │    └ <function HTTPSConnectionPool._validate_conn at 0x0000025AE0112660>
+    └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A93EC2510>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+    │    └ <function HTTPSConnection.connect at 0x0000025AE00F2200>
+    └ <urllib3.connection.HTTPSConnection object at 0x0000025A93F3A6D0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        └ <function _ssl_wrap_socket_and_match_hostname at 0x0000025AE00F0F40>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               └ <function ssl_wrap_socket at 0x0000025AE0083BA0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               │                     │     │        │           └ 'www.google.com'
+               │                     │     │        └ False
+               │                     │     └ <ssl.SSLContext object at 0x0000025A93EBB260>
+               │                     └ <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+               └ <function _ssl_wrap_socket_impl at 0x0000025AE0083D80>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           │           │           │                     └ 'www.google.com'
+           │           │           └ <socket.socket [closed] fd=-1, family=2, type=1, proto=0>
+           │           └ <function SSLContext.wrap_socket at 0x0000025ADFC0C900>
+           └ <ssl.SSLContext object at 0x0000025A93EBB260>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           │    │               └ <classmethod(<function SSLSocket._create at 0x0000025ADFC0E840>)>
+           │    └ <class 'ssl.SSLSocket'>
+           └ <ssl.SSLContext object at 0x0000025A93EBB260>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+    │    └ <function SSLSocket.do_handshake at 0x0000025ADFC0FCE0>
+    └ <ssl.SSLSocket [closed] fd=-1, family=2, type=1, proto=0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+    │    └ None
+    └ <ssl.SSLSocket [closed] fd=-1, family=2, type=1, proto=0>
+
+TimeoutError: _ssl.c:989: The handshake operation timed out
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x0000025AE01122A0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A93EC2510>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              │       └ <function Retry.increment at 0x0000025AE0063D80>
+              └ Retry(total=0, connect=None, read=False, redirect=None, status=None)
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          │            │       │      └ <traceback object at 0x0000025A93F3B4C0>
+          │            │       └ ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)")
+          │            └ ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)")
+          └ <function reraise at 0x0000025AE00622A0>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+          └ None
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               │    └ <function HTTPConnectionPool._make_request at 0x0000025AE01120C0>
+               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A93EC2510>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+          └ ReadTimeoutError("HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)")
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    │    │                         │                  │    └ 5
+    │    │                         │                  └ <urllib3.connection.HTTPSConnection object at 0x0000025A93F3A6D0>
+    │    │                         └ '/'
+    │    └ <function HTTPConnectionPool._raise_timeout at 0x0000025AE0112020>
+    └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x0000025A93EC2510>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+          └ <class 'urllib3.exceptions.ReadTimeoutError'>
+
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\ranveer\speech-translate\Speech-Translate\speech_translate\utils\audio\record.py", line 161, in record_session
+    requests.get("https://www.google.com/", timeout=5)
+    │        └ <function get at 0x0000025AE02A8FE0>
+    └ <module 'requests' from 'C:\\Users\\admin\\anaconda3\\envs\\translate\\Lib\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           │              │           │         └ {'timeout': 5}
+           │              │           └ None
+           │              └ 'https://www.google.com/'
+           └ <function request at 0x0000025AE02A8C20>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'params': None, 'timeout': 5}
+           │       │              │           └ 'https://www.google.com/'
+           │       │              └ 'get'
+           │       └ <function Session.request at 0x0000025AE02D7240>
+           └ <requests.sessions.Session object at 0x0000025A98AFF850>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': 5, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x0000025AE02D7740>
+           └ <requests.sessions.Session object at 0x0000025A98AFF850>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': 5, 'proxies': OrderedDict(), 'stream': False, 'verify': True, 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x0000025AE02D6AC0>
+        └ <requests.adapters.HTTPAdapter object at 0x0000025A93EE9F50>
+  File "C:\Users\admin\anaconda3\envs\translate\Lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+          │                      └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.ReadTimeout'>
+
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+2024-06-29 13:26:12.580 | DEBUG   | load.py:366 [Thread-36 (record_session)] - Mode load args get: {'device': 'cpu', 'success': True}
+2024-06-29 13:26:12.588 | DEBUG   | load.py:492 [Thread-36 (record_session)] - Loading model for transcribe using faster-whisper
+2024-06-29 13:26:14.371 | ERROR   | _logging.py:63 [Thread-36 (record_session)] - An error occured while synchronizing the model Systran/faster-whisper-tiny.en from the Hugging Face Hub:
+2024-06-29 13:26:14.371 | ERROR   | _logging.py:63 [Thread-36 (record_session)] - (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/Systran/faster-whisper-tiny.en/revision/main (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: f51485c3-6f06-47c7-97df-d4ede3676f0a)')
+2024-06-29 13:26:14.371 | ERROR   | _logging.py:63 [Thread-36 (record_session)] - Trying to load the model directly from the local cache, if it exists.
+2024-06-29 13:26:14.784 | DEBUG   | load.py:542 [Thread-36 (record_session)] - Model loaded | Is Faster Whisper: True | Load Status:
+2024-06-29 13:26:14.792 | DEBUG   | load.py:543 [Thread-36 (record_session)] - TC: Set
+2024-06-29 13:26:14.792 | DEBUG   | load.py:544 [Thread-36 (record_session)] - TL: Not Set
+2024-06-29 13:26:14.792 | DEBUG   | load.py:545 [Thread-36 (record_session)] - func_tc: Set
+2024-06-29 13:26:14.801 | DEBUG   | load.py:546 [Thread-36 (record_session)] - func_tl: Not Set
+2024-06-29 13:26:14.801 | DEBUG   | load.py:442 [Thread-36 (record_session)] - Pass kwarg:
+2024-06-29 13:26:14.810 | DEBUG   | load.py:443 [Thread-36 (record_session)] - {'temperature': (0.0, 0.2, 0.4, 0.6, 0.8, 1.0), 'best_of': 3, 'beam_size': 3, 'patience': 1.0, 'compression_ratio_threshold': 2.4, 'logprob_threshold': -1.0, 'no_speech_threshold': 0.72, 'suppress_tokens': None, 'suppress_blank': True, 'initial_prompt': None, 'prefix': None, 'condition_on_previous_text': True, 'max_initial_timestamp': 1.0, 'fp16': True}
+2024-06-29 13:26:14.817 | DEBUG   | load.py:366 [Thread-36 (record_session)] - Mode transcribe args get: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'threads': 0, 'success': True}
+2024-06-29 13:26:14.829 | DEBUG   | language.py:269 [Thread-36 (record_session)] - GETTING WHISPER LANGUAGE FROM SIMILAR LANGUAGE NAME
+2024-06-29 13:26:14.829 | DEBUG   | language.py:274 [Thread-36 (record_session)] - Found key english while searching for english
+2024-06-29 13:26:14.836 | DEBUG   | language.py:275 [Thread-36 (record_session)] - FULL KEY GET ['english']
+2024-06-29 13:26:14.950 | INFO    | record.py:417 [Thread-36 (record_session)] - --------------------------------------------------
+2024-06-29 13:26:14.958 | INFO    | record.py:418 [Thread-36 (record_session)] - Taskname: Transcribe & Translate
+2024-06-29 13:26:14.958 | INFO    | record.py:419 [Thread-36 (record_session)] - TC: True
+2024-06-29 13:26:14.958 | INFO    | record.py:420 [Thread-36 (record_session)] - TL: True
+2024-06-29 13:26:14.966 | INFO    | record.py:421 [Thread-36 (record_session)] - Model: tiny.en
+2024-06-29 13:26:14.966 | INFO    | record.py:422 [Thread-36 (record_session)] - Engine: Google Translate
+2024-06-29 13:26:14.975 | INFO    | record.py:423 [Thread-36 (record_session)] - CUDA: cpu
+2024-06-29 13:26:14.975 | INFO    | record.py:424 [Thread-36 (record_session)] - Auto mode: False
+2024-06-29 13:26:14.983 | INFO    | record.py:425 [Thread-36 (record_session)] - Whisper Lang/Key: english/en
+2024-06-29 13:26:14.983 | INFO    | record.py:426 [Thread-36 (record_session)] - Source Languange: english
+2024-06-29 13:26:14.983 | INFO    | record.py:428 [Thread-36 (record_session)] - Target Language: french
+2024-06-29 13:26:14.992 | INFO    | record.py:429 [Thread-36 (record_session)] - Model Args: {'device': 'cpu', 'download_root': 'C:\\Users\\admin\\.cache\\whisper'}
+2024-06-29 13:26:14.992 | INFO    | record.py:430 [Thread-36 (record_session)] - Process Args: {'word_timestamps': True, 'regroup': True, 'suppress_silence': True, 'suppress_word_ts': True, 'q_levels': 20, 'k_size': 5, 'demucs': False, 'demucs_output': None, 'demucs_options': None, 'vad': False, 'vad_threshold': 0.35, 'vad_onnx': False, 'min_word_dur': 0.1, 'only_voice_freq': False, 'beam_size': 3, 'best_of': 3, 'patience': 1.0, 'no_speech_threshold': 0.72, 'compression_ratio_threshold': 2.4, 'condition_on_previous_text': True, 'initial_prompt': None, 'prefix': None, 'suppress_blank': True, 'suppress_tokens': None, 'max_initial_timestamp': 1.0, 'verbose': None, 'language': 'en', 'input_sr': 16000}
+2024-06-29 13:26:15.465 | DEBUG   | record.py:661 [Thread-36 (record_session)] - Recording session started
+2024-06-29 13:26:15.542 | DEBUG   | record.py:977 [Dummy-38] - Checking if webrtcvad is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:26:15.545 | DEBUG   | record.py:979 [Dummy-38] - Checking if silero is possible to use. You can ignore the error log if it fails!
+2024-06-29 13:26:25.910 | DEBUG   | record.py:895 [Thread-36 (record_session)] - Stopping Record Session
+2024-06-29 13:26:25.939 | INFO    | record.py:899 [Thread-36 (record_session)] - --------------------------------------------------
+2024-06-29 13:26:25.943 | INFO    | record.py:900 [Thread-36 (record_session)] - Stopping stream
+2024-06-29 13:26:26.041 | INFO    | record.py:909 [Thread-36 (record_session)] - Terminating pyaudio
+2024-06-29 13:26:26.041 | INFO    | record.py:916 [Thread-36 (record_session)] - Emptying queue
+2024-06-29 13:26:26.046 | INFO    | record.py:923 [Thread-36 (record_session)] - Cleaning up audioFiles (if any)
+2024-06-29 13:26:26.049 | INFO    | record.py:929 [Thread-36 (record_session)] - Done!
+2024-06-29 13:26:26.470 | INFO    | record.py:941 [Thread-36 (record_session)] - Modal closed
+2024-06-29 13:26:26.470 | INFO    | record.py:942 [Thread-36 (record_session)] - --------------------------------------------------
+2024-06-29 13:26:26.470 | INFO    | record.py:958 [Thread-36 (record_session)] - Record session ended
+2024-06-29 13:30:47.250 | INFO    | main.py:106 [MainThread] - Received Ctrl+C, exiting...
+2024-06-29 13:30:47.251 | INFO    | main.py:758 [MainThread] - Stopping tray...
+2024-06-29 13:30:47.251 | INFO    | main.py:763 [MainThread] - Destroying windows...
+2024-06-29 13:30:47.672 | INFO    | main.py:781 [MainThread] - Exiting...
